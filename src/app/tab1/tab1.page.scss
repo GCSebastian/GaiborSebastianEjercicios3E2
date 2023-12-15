@@ -1,0 +1,27 @@
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+.CardEjercicio1
+    {
+        background-color: rgb(255, 0, 0);
+        width: 100%;
+        height: 90%;
+    }
+    ion-card-content{
+        background-color: rgb(255, 0, 0);
+        width: 100%;
+        height: 25%;
+    }
+
+@media screen and (max-width: 400px) 
+{
+    .CardEjercicio1
+    {
+        background-color: rgb(0, 60, 255);
+    }
+    ion-card-content{
+        background-color: rgb(0, 60, 255);
+    }
+}

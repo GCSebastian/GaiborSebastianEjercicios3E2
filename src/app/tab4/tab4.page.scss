@@ -1,0 +1,13 @@
+.col1, .col2{
+    width: 100%;
+    border: solid 0.1rem black;
+}
+@media screen and (max-width: 768px) 
+{
+   .col1{
+    order: 2;
+   }
+   .col2{
+    order: 1;
+   }
+}
